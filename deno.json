@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "start": "deno run --allow-env --allow-net --allow-read --allow-write main.ts"
+  },
+  "imports": {
+    "@/": "./src/",
+    "@std/csv": "jsr:@std/csv@^1.0.5",
+    "openai": "npm:openai@^4.85.1"
+  }
+} 
